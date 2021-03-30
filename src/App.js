@@ -4,6 +4,7 @@ import MyCarousal from "./components/carousal/MyCarousal";
 import TitleMessage from "./components/title/TitleMessage";
 import { Container } from "react-bootstrap";
 import About from "./pages/about/About";
+import Skills from "./pages/skills/Skills";
 
 const App = () => {
   return (
@@ -14,7 +15,12 @@ const App = () => {
       <TitleMessage />
       <div>
         <Container className="container-box rounded">
-          <About />
+            <About />
+        </Container>
+      </div>
+      <div>
+        <Container className="container-box rounded">
+            <Skills />
         </Container>
       </div>
     </div>
