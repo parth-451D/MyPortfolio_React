@@ -1,5 +1,5 @@
 import React from "react";
-import  styled from "styled-components";
+import styled from "styled-components";
 import Typewriter from "typewriter-effect";
 
 const MyTitleMessage = styled.h1`
@@ -7,15 +7,16 @@ const MyTitleMessage = styled.h1`
   width: 100%;
   top: 22rem;
   z-index: 1;
-  margin-top: -125px;
+  margin-top: -30px;
   text-align: center;
   strong {
     font-size: 1.25em;
+    color: blue;
   }
   div {
-    color: ${props => props.theme.textColor};
+    color: black;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-    font-weight: 100;
+    font-weight: 500;
     letter-spacing: 7px;
     .main {
       font-size: 50px;
@@ -28,7 +29,6 @@ const MyTitleMessage = styled.h1`
 `;
 
 const TitleMessage = () => {
-
   return (
     <MyTitleMessage>
       <div className="titleMessage">
@@ -37,13 +37,13 @@ const TitleMessage = () => {
             Hi, I am
             <br />
             <span>
-              <strong>Parth Dalsaniya</strong>
+              <strong>Parth Dalsaniya </strong>
             </span>
           </div>
           <div className="sub">
             <Typewriter
               options={{
-                strings: ["Web Developer", "Designer", "Learner", "Freelancer"],
+                strings: ["Web Developer", "Freelancer", "Learner"],
                 autoStart: true,
                 loop: true,
                 delay: 50,
