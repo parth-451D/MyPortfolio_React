@@ -7,6 +7,7 @@ import About from "./pages/about/About";
 import Skills from "./pages/skills/Skills";
 import Experience from "./pages/experience/Experience";
 import Slide from "react-reveal/Slide";
+import Projects from "./components/projects/Projects";
 
 const App = () => {
   return (
@@ -46,6 +47,15 @@ const App = () => {
         </Container>
       </div>
       <hr />
+
+      {/* projects page */}
+      <div>
+        <Container className="container-box rounded">
+          <Slide bottom duration={700}>
+            <Projects />
+          </Slide>
+        </Container>
+      </div>
     </div>
   );
 };
