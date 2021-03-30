@@ -8,20 +8,28 @@ import Skills from "./pages/skills/Skills";
 import Experience from "./pages/experience/Experience";
 import Slide from "react-reveal/Slide";
 import Projects from "./components/projects/Projects";
+import Contact from "./pages/contact/Contact";
+import Footer from "./components/footer/Footer";
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions";
 
 const App = () => {
   return (
-    <div className="App">
+    <div style={{ position: "relative" }} >
       {/* home page */}
       <MyNavbar />
       <MyCarousal />
       <TitleMessage />
+      <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      />
       <hr />
 
       {/* about page */}
       <div>
         <Container className="container-box rounded">
-          <Slide bottom duration={700}>
+          <Slide bottom duration={500}>
             <About />
           </Slide>
         </Container>
@@ -31,7 +39,7 @@ const App = () => {
       {/* skills page */}
       <div>
         <Container className="container-box rounded">
-          <Slide bottom duration={700}>
+          <Slide bottom duration={500}>
             <Skills />
           </Slide>
         </Container>
@@ -41,7 +49,7 @@ const App = () => {
       {/* experience page */}
       <div>
         <Container className="container-box rounded">
-          <Slide bottom duration={700}>
+          <Slide bottom duration={500}>
             <Experience />
           </Slide>
         </Container>
@@ -51,11 +59,25 @@ const App = () => {
       {/* projects page */}
       <div>
         <Container className="container-box rounded">
-          <Slide bottom duration={700}>
+          <Slide bottom duration={500}>
             <Projects />
           </Slide>
         </Container>
       </div>
+      <hr/>
+
+      {/* Contact me page */}
+      <div>
+        <Container className="container-box rounded">
+          <Slide bottom duration={500}>
+            <Contact />
+          </Slide>
+        </Container>
+      </div>
+      <hr/>
+
+      {/* footer */}
+      <Footer />
     </div>
   );
 };
