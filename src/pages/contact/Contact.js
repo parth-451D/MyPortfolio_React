@@ -51,11 +51,12 @@ const Contact = () => {
                 href="https://www.instagram.com/_parth_dalsaniya_/"
                 target="_blank"
                 rel="noopener noreferrer"
+                
               >
                 <Button
                   id="instagram-btn"
-                  variant="outline-info"
                   title="Visit my instagram"
+                  variant="outline-danger"
                 >
                   <i class="fab fa-instagram"></i> Instagram
                 </Button>
