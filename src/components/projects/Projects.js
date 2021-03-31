@@ -9,6 +9,7 @@ import L_PP from "../../assets/img/projects/pp.png";
 import L_TWITTER from "../../assets/img/projects/twitter.png";
 import L_YOUTUBE from "../../assets/img/projects/youTube.png";
 import L_DSA from "../../assets/img/projects/dsa.png";
+import L_RPP from "../../assets/img/projects/RPP.png";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -16,6 +17,7 @@ import Image from "react-bootstrap/Image";
 import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
+import L_RB from "../../assets/img/skills/react-bootstrap.svg";
 import L_SASS from "../../assets/img/skills/sass-1.svg";
 import L_JS from "../../assets/img/skills/javascript.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
@@ -76,7 +78,7 @@ const Projects = () => {
                             <span className="p-2">
                               <Image
                                 src={L_REDUX}
-                                alt="CSS 3"
+                                alt="redux"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
@@ -311,7 +313,6 @@ const Projects = () => {
             </div>
           </ImageEvent>
 
-          
           {/* Project 4: Twitter Clone */}
           <ImageEvent
             date="01/03/2021"
@@ -387,6 +388,92 @@ const Projects = () => {
               </div>
             </div>
           </ImageEvent>
+        
+          {/* Project 5: Reactifolio */}
+          <ImageEvent
+            date="30/03/2021"
+            className="text-center"
+            text="Reactifolio"
+            src={L_RPP}
+            alt="Reactifolio"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This project made using React, ReactBootstrap and basic css3 <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>More interective UI</li>
+                          <li>See Projects and Experience </li>
+                          <li>Respoisive Design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="react"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_RB}
+                                alt="React-Bootstrap"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React-Bootstrap
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://reactifolio.web.app/" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/parth-451D/MyPortfolio_React"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
         </Events>
       </Timeline>
     </div>
