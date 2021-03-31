@@ -4,8 +4,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Tilt from "react-tilt";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
-// import { logo } from "../../assets/img/experience/logo.png";
-import L_ACCENTURE from "../../assets/img/experience/accenture-3.svg";
+import  logo  from "../../assets/img/experience/logo.png";
 
 const Experience = () => {
   return (
@@ -22,9 +21,10 @@ const Experience = () => {
                 <Card.Img
                   variant="top"
                   className="img-resize"
-                  src={L_ACCENTURE}
-                  alt="Accenture logo"
+                  src={logo}
+                  alt="Student Advizor"
                 />
+                <h3 className="company-heading">Student Advizor</h3>
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>

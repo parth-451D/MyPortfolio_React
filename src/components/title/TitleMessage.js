@@ -11,7 +11,7 @@ const MyTitleMessage = styled.h1`
   text-align: center;
   strong {
     font-size: 1.25em;
-    color: blue;
+    color: white;
   }
   div {
     color: black;
@@ -46,7 +46,7 @@ const TitleMessage = () => {
                 strings: ["Web Developer", "Freelancer", "Learner"],
                 autoStart: true,
                 loop: true,
-                delay: 50,
+                delay: 70,
               }}
             />
           </div>

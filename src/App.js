@@ -10,20 +10,14 @@ import Slide from "react-reveal/Slide";
 import Projects from "./components/projects/Projects";
 import Contact from "./pages/contact/Contact";
 import Footer from "./components/footer/Footer";
-import Particles from "react-particles-js";
-import { particlesOptions } from "./particlesOptions";
 
 const App = () => {
   return (
-    <div style={{ position: "relative" }} >
+    <div className="App">
       {/* home page */}
       <MyNavbar />
       <MyCarousal />
       <TitleMessage />
-      <Particles
-        className="particles particles-box"
-        params={particlesOptions}
-      />
       <hr />
 
       {/* about page */}

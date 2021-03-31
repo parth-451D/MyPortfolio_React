@@ -1,5 +1,5 @@
 .img-resize {
-  width: 10em;
+  width: 5em;
 }
 
 .style {
@@ -19,3 +19,9 @@
   font-size: 25px;
   font-weight: 800;
 }
+
+.company-heading{
+  padding: 20px;
+  padding-top: 30px;
+}
+

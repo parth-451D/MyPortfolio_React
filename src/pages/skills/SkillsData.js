@@ -7,22 +7,19 @@ import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_FLASK from "../../assets/img/skills/flask.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
-import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
-import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase-icon1.svg";
+import L_CPP from "../../assets/img/skills/C++.svg";
+import L_MYSQL from "../../assets/img/skills/MySQL.svg";
+import L_XAMPP from "../../assets/img/skills/XAMPP.svg";
 
 export const skills = {
   frontend: [
@@ -87,12 +84,6 @@ export const skills = {
       imgSrc: L_REACT_BOOTSTRAP,
       skillName: "React Bootstrap",
     },
-    {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },
   ],
   backend: [
     {
@@ -101,24 +92,12 @@ export const skills = {
       imgSrc: L_NODE_JS,
       skillName: "Node.js",
     },
-    // {
-    //   link: "https://expressjs.com/",
-    //   imgAltText: "Express",
-    //   imgSrc: L_EXPRESS,
-    //   skillName: "Express",
-    // },
-    // {
-    //   link: "https://www.djangoproject.com/",
-    //   imgAltText: "Django",
-    //   imgSrc: L_DJANGO,
-    //   skillName: "Django",
-    // },
-    // {
-    //   link: "https://flask.palletsprojects.com/",
-    //   imgAltText: "Flask",
-    //   imgSrc: L_FLASK,
-    //   skillName: "Flask",
-    // },
+    {
+      link: "https://expressjs.com/",
+      imgAltText: "Express",
+      imgSrc: L_EXPRESS,
+      skillName: "Express",
+    }
   ],
   hostingPlatforms: [
     {
@@ -127,12 +106,12 @@ export const skills = {
       imgSrc: L_HEROKU,
       skillName: "Heroku",
     },
-    // {
-    //   link: "https://www.digitalocean.com/",
-    //   imgAltText: "Digital Ocean",
-    //   imgSrc: L_DIGITAL_OCEAN,
-    //   skillName: "Digital Ocean",
-    // },
+    {
+      link: "https://www.firebase.com/",
+      imgAltText: "FIREBASE",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
+    },
     {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
@@ -160,30 +139,30 @@ export const skills = {
       skillName: "Python",
     },
     {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
+      link: "https://www.w3schools.com/cpp/",
+      imgAltText: "CPP",
+      imgSrc: L_CPP,
+      skillName: "CPP",
     },
   ],
   databases: [
     {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "PostgreSQL",
-    },
-    {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
+      link: "https://www.mysql.com/",
+      imgAltText: "MySQL",
+      imgSrc: L_MYSQL,
+      skillName: "MySQL",
     },
     {
       link: "https://www.mongodb.com/",
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
+    },
+    {
+      link: "https://www.apachefriends.org/",
+      imgAltText: "XAMPP",
+      imgSrc: L_XAMPP,
+      skillName: "XAMPP",
     },
   ],
   versionControl: [
