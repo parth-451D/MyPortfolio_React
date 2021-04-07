@@ -123,6 +123,12 @@ const Projects = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
+                <UrlButton
+                  href="https://www.linkedin.com/posts/parth-dalsaniya-166a0919b_react-redux-ugcPost-6785187481194135552-swXc/"
+                  target="_blank"
+                >
+                  WATCH VIDEO
+                </UrlButton>
               </div>
             </div>
           </ImageEvent>
